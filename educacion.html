@@ -6,6 +6,7 @@
 </head>
 
 <body>
+<img src="imagen/logonombre.svg">
 <H1>Hoja de vida</H1>
 <h2>Jose Herminio Barrientos Quispe</h2>
 <h3>8 de enero de 1986 , Lima-Perú</h3>
@@ -45,7 +46,45 @@
 				</tr>
 			</tbody>
 		</table>
+<h2>agregar estudios</h2>
 
+<form action="">
+		
+		<p>
+			<label for="año">Año: </label>
+			
+			<select name="año">
+				<option value="1">2018</option>
+				<option value="2">2017</option>
+				<option value="3">2016</option>
+			</select>
+		</p>
+		<p>
+			<label for="institucion">institucion :</label>
+			
+			<input type="text" required name="institucion" >
+		</p>
+		<p>
+			<label for="lugar" >lugar : </label>
+			
+			<input type="text" required name="lugar" >
+		</p>
+		
+		<p>
+			<label for="culmino">¿culminó? </label>
+			
+			<input type="radio" name="culmino"> si
+			
+			<input type="radio" name="culmino"> no
+		</p>
+		
+		
+		<p>
+			<input type="submit" value="Enviar">
+		</p>
+		</form>
+	
+	
 <footer>
 	<ul>
 		<li>correo electronico : josebarrientosq@gmail.com</li>
