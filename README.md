@@ -1,2 +1,0 @@
-# practicas
-leer
